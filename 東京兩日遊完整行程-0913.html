@@ -5,91 +5,132 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>東京行程 Day 4 & 5 - 吉祥寺、阿美橫丁、新宿、澀谷、銀座</title>
 <style>
+  /* 全局設定 */
   body {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.65;
     padding: 10px;
     max-width: 800px;
     margin: auto;
-    background: #f9f9f9;
+    background: #fcfcfc;
     color: #333;
   }
+
   h2 {
     background-color: #800000;
     color: #fff;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1.5em;
+    margin-top: 30px;
   }
+
   h3 {
     color: #800000;
-    margin-top: 20px;
+    margin-top: 25px;
+    font-size: 1.2em;
   }
+
   .time-block {
     background: linear-gradient(to right, #ffe6e6, #fff5f5);
-    padding: 10px;
-    margin: 15px 0;
+    padding: 12px 15px;
+    margin: 18px 0;
     border-left: 5px solid #800000;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.08);
   }
+
   .subsection {
-    margin-left: 15px;
-    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-bottom: 12px;
   }
+
   .transport {
     background-color: #fff3e6;
-    padding: 8px;
+    padding: 10px;
     border-left: 5px solid #ff6600;
     border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-size: 0.95em;
   }
+
   a {
     color: #800000;
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
+
+  a:hover {
+    color: #ff3333;
+  }
+
   a.map-link {
     display: inline-block;
     margin-left: 10px;
-    padding: 4px 10px;
+    padding: 5px 12px;
     background-color: #800000;
     color: #fff;
-    font-size: 0.9em;
-    border-radius: 5px;
+    font-size: 0.95em;
+    border-radius: 6px;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.25);
   }
+
   a.map-link:hover {
     background-color: #ff3333;
     transform: translateY(-2px);
   }
-  .exit-info {
+
+  .exit-info, .mall-info {
     font-size: 0.9em;
     color: #555;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
   }
-  .mall-info {
-    font-size: 0.9em;
-    color: #333;
-    margin-bottom: 5px;
+
+  hr {
+    margin: 35px 0;
+    border-top: 2px solid #800000;
   }
+
+  /* 手機優化 */
   @media (max-width: 600px) {
     body {
-      padding: 5px;
+      padding: 8px;
       font-size: 16px;
+    }
+
+    h2 {
+      font-size: 1.35em;
+    }
+
+    h3 {
+      font-size: 1.1em;
+    }
+
+    .time-block {
+      padding: 10px 12px;
+    }
+
+    a.map-link {
+      font-size: 0.85em;
+      padding: 4px 8px;
+      margin-left: 5px;
     }
   }
 </style>
 </head>
 <body>
 
-<h2>東京行程總覽交通（從葛西站出發）</h2>	
+<h2>東京行程總覽交通（從葛西站出發）</h2>  
 <div class="transport">
   <strong>Day 4：</strong>葛西 → 吉祥寺 → 新宿 → 葛西<br>
   <strong>葛西 → 吉祥寺：</strong>東京Metro 東西線 → 大手町轉 JR中央線快速（西行），約 1小時15分，¥550<br>
   <strong>吉祥寺 → 新宿：</strong>JR中央線快速（東行），約 20–25分，¥200<br>
   <strong>新宿 → 葛西：</strong>JR中央線快速 → 大手町轉東西線，約 1小時10分，¥550
 </div>
+
 <div class="transport">
   <strong>Day 5：</strong>葛西 → 阿美橫丁 → 澀谷 → 銀座 → 葛西<br>
   <strong>葛西 → 阿美橫丁（上野）：</strong>東京Metro 東西線 → 大手町轉千代田線/日比谷線，約 50–60分，¥320<br>
@@ -153,7 +194,7 @@
   </div>
 </div>
 
-<hr style="margin:30px 0; border-top:2px solid #800000;">
+<hr>
 
 <h2>Day 5：阿美橫丁 → 澀谷 → 銀座</h2>
 <p>行程規劃與說明</p>
@@ -178,44 +219,32 @@
   </div>
 </div>
 
-<h3>澀谷</h3>
-<ul class="subsection">
-  <li><a href="https://bobbyfun.tw/shibuya/" target="_blank">澀谷介紹（BobbyFun）</a></li>
-  <li><a href="https://www.youtube.com/watch?v=AvcwfHSiflk" target="_blank">澀谷影片</a></li>
-</ul>
-
 <div class="time-block">
   <strong>11:30–13:30｜澀谷</strong> <a href="https://maps.app.goo.gl/TfBwRVDtioZF4YWXA" target="_blank" class="map-link">地圖</a>
-  <div class="exit-info">建議出口：Hachiko 出口 / 宮下公園出口（渋谷スクランブル交差点）</div>
-  <div class="mall-info">附近百貨：Shibuya 109、渋谷PARCO、Miyashita Park</div>
+  <div class="exit-info">建議出口：澀谷站 Hachiko 出口</div>
+  <div class="mall-info">附近百貨：Shibuya 109、Tokyu、Shibuya Hikarie</div>
   <div class="subsection">
-    <p>• 打卡景點：澀谷交叉口、Hachiko雕像。</p>
-    <p>• 購物：Shibuya 109（女生）、或澀谷周邊商場也有男生/綜合服飾店。</p>
-    <p>• 可在此享用 Brunch 或輕食。</p>
+    <p>• 澀谷十字路口拍照：感受世界知名交叉路口的人潮流動。</p>
+    <p>• 商場購物：Shibuya 109 女裝、Tokyu 電器與時尚商品。</p>
+    <p>• 午餐建議：附近咖啡店、拉麵或日式輕食。</p>
   </div>
   <div class="transport">
-    <strong>交通：</strong>阿美橫丁搭 <strong>JR山手線（內回り或外回り）</strong> → 澀谷站，約 30分鐘，費用約 ¥200。
+    <strong>交通：</strong>從阿美橫丁搭 <strong>JR山手線</strong> → 澀谷站，約 30分鐘，費用約 ¥200。
   </div>
 </div>
 
-<h3>銀座</h3>
-<ul class="subsection">
-  <li><a href="https://bobbyfun.tw/ginza/" target="_blank">銀座介紹（BobbyFun）</a></li>
-  <li><a href="https://www.youtube.com/watch?v=fKxfW2nC2tg" target="_blank">銀座影片</a></li>
-</ul>
-
 <div class="time-block">
-  <strong>14:00–20:00｜銀座</strong> <a href="https://maps.app.goo.gl/TtmSP7xYEdZEzcX47" target="_blank" class="map-link">地圖</a>
-  <div class="exit-info">建議出口：銀座站 A3 / A4（靠近三越、GINZA SIX）</div>
-  <div class="mall-info">附近百貨：三越、松屋、GINZA SIX</div>
+  <strong>14:00–16:00｜銀座</strong> <a href="https://maps.app.goo.gl/YiY4p2mQXh9E9S4x8" target="_blank" class="map-link">地圖</a>
+  <div class="exit-info">建議出口：銀座站 A2/A3</div>
+  <div class="mall-info">附近百貨：三越、松屋、和光</div>
   <div class="subsection">
-    <p>• 高級百貨：三越、松屋、GINZA SIX。</p>
-    <p>• 下午茶/甜點：知名甜品店可安排作結尾。</p>
-    <p>• 晚餐：壽司、懷石料理或高級洋食，為旅程收尾。</p>
+    <p>• 銀座商圈逛街：高級百貨與精品店林立，街道乾淨整齊。</p>
+    <p>• 下午茶或咖啡：可選擇銀座特色咖啡廳或甜點店。</p>
+    <p>• 若時間充裕，可順道去晴海通、銀座和光拍照。</p>
   </div>
   <div class="transport">
-    <strong>交通：</strong>澀谷搭 <strong>東京Metro 銀座線 → 銀座站</strong>，約 20分鐘，費用約 ¥200。<br>
-    返回葛西：銀座搭 <strong>銀座線 → 日本橋轉東西線（東行）→ 葛西站</strong>，約 35–40分鐘，費用約 ¥250。
+    <strong>交通：</strong>從澀谷搭 <strong>東京Metro 銀座線</strong> → 銀座站，約 20分鐘，費用約 ¥200。<br>
+    返回葛西：銀座搭 <strong>銀座線 → 日本橋轉東西線</strong> → 葛西站，約 35–40分鐘，費用約 ¥250。
   </div>
 </div>
 
